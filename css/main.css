@@ -1,0 +1,102 @@
+@media screen and (min-width: 1023px)  {
+    #particles-js {
+        position: relative;
+        background-image: url("../imgs/undraw_connected_world_wuay.svg");
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+        background-size: 60% 100% !important;
+        padding-bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 1022px) {
+    #particles-js {
+        position: relative;
+        background-image: url("../imgs/undraw_connected_world_wuay.svg");
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+        background-size: 100% 100% !important;
+        padding-bottom: 10%;
+    }
+}
+
+html {
+    font-size: 15px;
+    -webkit-text-size-adjust: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    font-size: 16px;
+    color: #6b6b6b;
+    font-weight: 300;
+    line-height: 1.75;
+    background-color: black;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    border:0px solid transparent;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+h3 {
+    color: cornflowerblue;
+}
+
+.collapse {
+    display: none !important;
+}
+
+.button {
+    background-color: #ff6699;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    pointer-events: none;
+  }
+
+  .about {
+    color: rgb(73, 72, 72);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .about>a {
+      text-decoration: none;
+      color: rgb(73, 72, 72);
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .about>a:hover {
+    text-decoration: none;
+    color: #ff6699;
+    transition: 0.5s;
+  }
+
+  .fab, .far, .fas {
+      color: rgb(134, 134, 134);
+  }
+
+  .item {
+      padding-bottom: 10%;
+  }
+  
+  .job>.job-place {
+      font-size: 1.2em;
+  }
+
