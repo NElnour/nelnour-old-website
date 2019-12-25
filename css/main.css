@@ -7,6 +7,11 @@
         background-size: 60% 100% !important;
         padding-bottom: 10%;
     }
+
+    .container {
+        max-width: 50% !important;
+    }
+
 }
 
 @media screen and (max-width: 1022px) {
@@ -46,22 +51,55 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 65% 30%;
+}
+
+
+.work {
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+    grid-row-start: 1; 
+    grid-row-end: 3;
+    padding-right: 3%;
+}
+
+.about {
+    grid-column-start: 2; 
+    grid-column-end: 3; 
+    grid-row-start: 1; 
+    grid-row-end: 2;
+
+    color: rgb(73, 72, 72);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+
+    padding-bottom: 10%;
+}
+
+.projects {
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+    grid-row-start: 3; 
+    grid-row-end: 4;
+    padding-right: 3%;
+}
+
+.extras {
+    grid-column-start: 2; 
+    grid-column-end: 3; 
+    grid-row-start: 2; 
+    grid-row-end: 3;
 }
 
 h3 {
     color: cornflowerblue;
 }
 
-.collapse {
-    display: none !important;
-}
-
 .button {
     background-color: #ff6699;
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -71,18 +109,13 @@ h3 {
     pointer-events: none;
   }
 
-  .about {
-    color: rgb(73, 72, 72);
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .about>a {
+  .about>a, .job-link>a, .job-desc>a {
       text-decoration: none;
       color: rgb(73, 72, 72);
       font-family: Arial, Helvetica, sans-serif;
   }
 
-  .about>a:hover {
+  .about>a:hover, .job-link>a:hover, .job-desc>a:hover {
     text-decoration: none;
     color: #ff6699;
     transition: 0.5s;
@@ -92,11 +125,13 @@ h3 {
       color: rgb(134, 134, 134);
   }
 
-  .item {
-      padding-bottom: 10%;
+  .projects>.job, .work>.job {
+      padding-top: 2%;
+      padding-bottom: 3%;
   }
-  
+
   .job>.job-place {
       font-size: 1.2em;
   }
+  
 
