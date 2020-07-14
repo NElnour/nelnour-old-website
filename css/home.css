@@ -1,0 +1,67 @@
+html {
+    scroll-behavior: smooth;
+}
+
+article {
+    background: conic-gradient(#92FE9D,
+            #00C9FF,
+            #92FE9D) fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: min(300%, 5vmin);
+    font-weight: bold;
+    padding-top: 40%;
+}
+
+body {
+    background: #000f1a !important;
+    color: white;
+    min-block-size: 200vh;
+    min-inline-size: 100%;
+    padding: 5vmin;
+    box-sizing: border-box;
+    display: grid;
+}
+
+.side-line {
+    border-left: 2px dotted rgba(245, 245, 245, 0.616);
+    border-bottom: 2px dotted rgba(245, 245, 245, 0.616);
+    height: 500px;
+    color: white;
+    padding-left: 2%;
+    font-size: min(300%, 5vmin);
+}
+
+#roles {
+    text-decoration: underline dotted;
+}
+
+.side-line>a,
+.side-line>a:hover {
+    text-decoration: none;
+    color: rgba(245, 245, 245, 1);
+    position: absolute;
+    top: 510px;
+    right: 0;
+}
+
+.card-deck {
+    padding-top: 4%;
+}
+
+.card-deck>.card>img {
+    height: 40%;
+}
+
+a,
+a:hover {
+    color: #0b8793;
+    text-decoration: none;
+}
+
+.card-title {
+    text-align: center;
+    color: #4BC0C8;
+}
