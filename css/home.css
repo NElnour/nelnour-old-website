@@ -13,6 +13,7 @@ article {
     font-size: min(300%, 5vmin);
     font-weight: bold;
     padding-top: 40%;
+    padding-bottom: 10%;
 }
 
 body {
@@ -43,7 +44,7 @@ body {
     text-decoration: none;
     color: rgba(245, 245, 245, 1);
     position: absolute;
-    top: 510px;
+    top: 505px;
     right: 0;
 }
 
@@ -64,4 +65,25 @@ a:hover {
 .card-title {
     text-align: center;
     color: #4BC0C8;
+}
+
+main {
+    padding-bottom: 7%;
+}
+
+footer {
+    border-right: 2px dotted rgba(245, 245, 245, 0.616);
+    border-top: 2px dotted rgba(245, 245, 245, 0.616);
+    height: 500px;
+    color: white;
+    padding-right: 2%;
+    font-size: min(300%, 5vmin);
+}
+
+footer>a, footer>a:hover{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 1);
+    position: absolute;
+    bottom: 505px;
+    left: 0;
 }
