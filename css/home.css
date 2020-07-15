@@ -67,6 +67,10 @@ a:hover {
     color: #4BC0C8;
 }
 
+.card-text {
+    color: #000f1a;
+}
+
 main {
     padding-bottom: 7%;
 }
@@ -74,7 +78,7 @@ main {
 footer {
     border-right: 2px dotted rgba(245, 245, 245, 0.616);
     border-top: 2px dotted rgba(245, 245, 245, 0.616);
-    height: 500px;
+    height: 300px;
     color: white;
     padding-right: 2%;
     font-size: min(300%, 5vmin);
@@ -85,7 +89,7 @@ footer>a:hover {
     text-decoration: none;
     color: rgba(245, 245, 245, 1);
     position: absolute;
-    bottom: 505px;
+    bottom: 305px;
     left: 0;
 }
 
