@@ -67,7 +67,7 @@ a:hover {
     color: #4BC0C8;
 }
 
-.card-text {
+.card-text, .card-footer {
     color: #000f1a;
 }
 
