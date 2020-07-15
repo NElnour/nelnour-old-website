@@ -29,7 +29,7 @@ body {
 .side-line {
     border-left: 2px dotted rgba(245, 245, 245, 0.616);
     border-bottom: 2px dotted rgba(245, 245, 245, 0.616);
-    height: 500px;
+    height: 300px;
     color: white;
     padding-left: 2%;
     font-size: min(300%, 5vmin);
@@ -44,7 +44,7 @@ body {
     text-decoration: none;
     color: rgba(245, 245, 245, 1);
     position: absolute;
-    top: 505px;
+    top: 305px;
     right: 0;
 }
 
@@ -80,10 +80,28 @@ footer {
     font-size: min(300%, 5vmin);
 }
 
-footer>a, footer>a:hover{
+footer>a,
+footer>a:hover {
     text-decoration: none;
     color: rgba(245, 245, 245, 1);
     position: absolute;
     bottom: 505px;
     left: 0;
+}
+
+footer>span {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    top: 35%;
+    align-content: space-around;
+}
+
+footer>span>a,
+footer>span>a:hover {
+    text-decoration: none;
+    text-align: center;
+    color: rgba(245, 245, 245, 1);
+    width: 33%;
 }
