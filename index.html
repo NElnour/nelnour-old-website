@@ -5,162 +5,352 @@
     <meta charset="UTF-8" />
     <meta name="author" content="Nada Elnour" />
     <meta name="keywords" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nada Elnour</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/resume.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
+
+<header class="header">
+    <nav class="navbar navbar-expand navbar-light">
+        <a class="navbar-brand" href="./index.html">
+            <!---https://cliply.co/clip/lisa-avatar/-->
+            <img src="./assets/imgs/371904150_LISA_AVATAR_400px.gif" width="100"
+                class="d-inline-block align-center logo" alt="">Nada Elnour
+        </a>
+
+        <div class="collapse navbar-collapse" id="navItems">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-muted">CV</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
 <body>
-    <main>
-        <div class="side-line" id="top">
-            hi, I'm <strong><big>Nada</big></strong>.
-            <div id="roles"></div> based in <strong><big>Mississauga, Canada</big></strong>
-            <a href="#portfolio"><i class="fas fa-chevron-circle-down"></i></a>
+    <div class="container">
+        <div class="item projects" id="projects">
+            <h3>Projects</h3>
+            <div class="job">
+                <div class="job-place">Face Splash</div>
+                <div class="job-link"><span class="fas fa-globe"></span> <a
+                        href="https://face-splash.herokuapp.com">face-splash.herokuapp.com</a>
+                    <br />
+                    <span class="fab fa-github-alt"></span> <a
+                        href="https://github.com/NElnour/face-splash">NElnour/face-splash</a>
+                </div>
+                <div class="job-desc">
+                    Facial, sentiment, age, and sex detection analysis of Unsplash images built using <strong>Vue
+                        3</strong>, <strong>Unshplash API</strong>, and <a
+                        href="https://justadudewhohacks.github.io/face-api.js/docs/index.html"><strong>face-api.js</strong></a>.
+                    I developed and deployed the app on <strong>Heroku</strong> after being inspired by one of <a
+                        href="https://www.mintbean.io/">Mintebean's</a> hackathons, <a
+                        href="https://www.mintbean.io/mb-event/db790794-7bc6-4e58-b3f3-8fa689220079">Photohack</a>.
+                </div>
+            </div>
+            <div class="job">
+                <div class="job-place">SendFoodz: Google Developer Student Club Community Project</div>
+                <div class="job-link"><span class="fas fa-globe"></span> <a
+                        href="https://csc492-send-foodz.github.io">csc492-send-foodz.github.io/</a>
+                    <br />
+                    <span class="fab fa-github-alt"></span> <a
+                        href="https://github.com/CSC492-Send-Foodz">CSC492-Send-Foodz</a>
+                </div>
+                <!--<div class="job-link"><span class="fas fa-globe"></span> <a href=""></a> <br /></div>-->
+                <div class="job-desc">
+                    <strong>Technologies used: JavaScript, Vue, Vuex, Vuexfire, Cloud Firestore, Firebase Cloud
+                        Messaging, Nativescript-vue, REST API, Figma </strong>
+                    <ul>
+                        <li>Worked in a team of 7 in an agile development setting to develop an application that
+                            facilitates
+                            food donation to food banks</li>
+                        <li>Designed the user interfaces of two web applications and a native mobile application
+                            using
+                            <strong>Figma</strong>
+                        </li>
+                        <li>Developed back-end data access objects, models, and services using vanilla
+                            <strong>JavaScript</strong> and <stron>Cloud Firestore</stron> both individually and in
+                            paired-programming settings
+                        </li>
+                        <li>Reviewed teammates' code on <strong>GitHub</strong> to ensure consistency and simplicity
+                            where applicable </li>
+                        <li>Implemented <strong>REST API</strong> in <strong>Firebase/ExpressJS</strong> backend for
+                            CRUD endpoints </li>
+                        <li>Developed a reusable <strong>Vue</strong> component that displays fetched user
+                            information
+                            from back-end endpoints using <strong>Vuex/Vuexfire</strong> and
+                            <strong>Vuetify</strong>
+                        </li>
+                        <li>Deployed <strong>Firebase Cloud Messaging</strong> functions to handle push
+                            notifications to
+                            Android</li>
+                        <li>Developed front-end of the android application using <strong>Nativescript-vue</strong>
+                            and
+                            <strong>Vuex</strong>
+                        </li>
+                        <li>Collaborating with two teammates to continue developing the mobile app on iOS and
+                            integrating <strong>Google Maps API</strong> for both platforms </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-place">fortnite 2-D Phase II: MMOG</div>
+                <!--<div class="job-link"><span class="fas fa-globe"></span> <a href=""></a> <br /></div>-->
+                <div class="job-desc">
+                    <strong>Technologies used: React, Fetch API, REST API, Node/Express</strong>
+                    <ul>
+                        <li>Refactored the game application's view and front-end authentication from HTML5, CSS3,
+                            and
+                            jQuery to <strong>React + Material UI</strong></li>
+                        <li>Translated AJAX requests to Fetch API to support back-end access with React components
+                        </li>
+                        <li>Reviewed partner's web sockets and mobile API implementation to ensure functionality,
+                            consistency, cohesion, and simplicity</li>
+                        <li>Documented model classes and their methods, as well as controller functions with
+                            <strong>Javadoc</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-place">fortnite 2-D Phase I: MVC</div>
+                <!--<div class="job-link"><span class="fas fa-globe"></span> <a href=""></a> <br /></div>-->
+                <div class="job-desc">
+                    <strong>Technologies used: HTML5, CSS3, JavaScript, AJAX, jQuery, REST API, SQLite3, MVC
+                        pattern</strong>
+                    <ul>
+                        <li>Collaborated with a partner to create a single-page application hosting a 2-D version of
+                            Fortnite using <strong>HTML5, CSS3, JavaScript, jQuery, </strong><strong>AJAX</strong>
+                        </li>
+                        <li>Coded player, world, ammunition, sound effect models using <strong>JavaScript</strong>
+                        </li>
+                        <li>Coded controller functions responsible for player and ammunition animation, sound
+                            effects,
+                            object removal from HTML5 Canvas, <strong>AJAX</strong> requests to back-end to
+                            fetch and update player statistics, and conditional display of DOM elements with
+                            <strong>jQuery</strong>
+                        </li>
+                        <li>Helped develop <strong>REST API</strong> endpoints for accessing and updating user info
+                            in
+                            <strong>SQLite3</strong> database as well as the database's schema and triggers
+                        </li>
+                        <li>Reviewed partner's code to ensure naming consistency and cleaner code</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-place">Online Games Collection App</div>
+                <!--<div class="job-link"><span class="fas fa-globe"></span> <a href=""></a> <br /></div>-->
+                <div class="job-desc">
+                    <strong>Technologies used: HTML5, CSS3, PHP, PostgreSQL</strong>
+                    <ul>
+                        <li>Collaborated with a partner to develop a single-page application that hosts four games:
+                            Guess Game (given), 15 Puzzle, Peg Solitaire, and Mastermind</li>
+                        <li>Developed Peg Solitaire (MVC) and co-developed Mastermind (MV) using <strong>HTML5,
+                                CSS3</strong> and <strong>PHP</strong> including game statistics' updates in
+                            database
+                        </li>
+                        <li>Helped develop <strong>PostgreSQL</strong> database schema and triggers to track user
+                            registration and game statistics</li>
+                        <li>Developed and styled user account page to display statistics, user information, and
+                            enable
+                            account update using <strong>HTML5, CSS3, </strong> and <strong>PHP</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-place">Snake</div>
+                <div class="job-link"><span class="fab fa-github-alt"></span> <a
+                        href="https://github.com/shogi9x9/snake_game/tree/master">shogi9x9/snake_game</a>
+                    <br />
+                </div>
+                <div class="job-desc">
+                    An open-source OOP implementation of Snake using <strong>Python/pygame</strong>. I wrote the
+                    scenes
+                    and scene switching responsible for displaying scores in the leaderboard and after a game's
+                    instance.
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-place">annotator3D</div>
+                <div class="job-link"><span class="fab fa-github-alt"></span> <a
+                        href="https://github.com/NElnour/annotator3D">NElnour/annotator3D</a>
+                    <br />
+                </div>
+                <div class="job-desc">
+                    An <strong>R</strong> Shiny app to visualize chromatin-loop annotated motifs based on
+                    cluster membership score.
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-place">CAPSULE</div>
+                <div class="job-link"><span class="fab fa-github-alt"></span> <a
+                        href="https://github.com/NElnour/CAPSULE">NElnour/CAPSULE</a>
+                    <br />
+                </div>
+                <div class="job-desc">
+                    An <strong>R</strong> package to parse <a href="https://www.proteinatlas.org/">Human Protein
+                        Cell
+                        Atlas </a> database and visualize locations by
+                    edit the XML of an SVG of a prototypical cell.
+                </div>
+            </div>
         </div>
 
-        <article id="portfolio">
-            Portofolio
-        </article>
+        <div class="item about" id="about">
+            <h3>About</h3>
+            <span class="fas fa-globe"></span> <a href="https://nelnour.github.io"> nelnour.github.io</a> <br />
+            <span class="fab fa-github-alt"></span> <a href="https://github.com/NElnour"> NElnour</a> <br />
+            <span class="fab fa-linkedin-in"></span> <a href="https://www.linkedin.com/in/nada-elnour-2ab922b9/">
+                Nada
+                Elnour</a> <br />
+            <span class="far fa-envelope"></span> nada.elnour@outlook.com <br />
+            <span class="far fa-file"></span> <a href="./assets/pages/resume_nelnour.pdf">Resume</a> <br />
+            <span><img src="./assets/imgs/frontend-mentor-seeklogo.com.svg" class="fm" alt="" aria-hidden="true"></span> <a href="https://www.frontendmentor.io/profile/NElnour">NElnour@Frontend Mentor</a>
+             <br />
+            <br />
+            Hello! I'm a full-stack developer-in-training who loves to design and build beautiful user-friendly
+            interfaces. I'm in the middle of a career change right now.
+            I started on the front-end side, and making my way to the back one project at a time.
+            <br />
+            <br />
+            When I part with my keyboard, I usually enjoy origami, acrylic pouring, and reading.
 
-        </div>
-        <div class="card-deck" data-aos="fade-zoom-in" data-aos-delay="300" data-aos-offset="0">
-            <div class="card">
-                <img src="./assets/imgs/face_splash1.png" class="card-img-top" alt="unsplashkack">
-                <div class="card-body">
-                    <h5 class="card-title">Face Splash</h5>
-                    <p class="card-text">
-                        Facial, sentiment, age, and sex detection analysis of Unsplash images built with Vue 3,
-                        Unshplash API, and face-api.js.
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <span>
-                        <a href="https://face-splash.herokuapp.com/"><i class="fas fa-globe"></i></a>
-                    </span>
-                    <span style="float: right;">
-                        <a href="https://github.com/NElnour/face-splash"><i class="fab fa-github-alt"></i></a>
-                    </span>
-                </div>
-            </div>
+            <div class="spacer"></div>
 
-            <div class="card">
-                <img src="./assets/imgs/sendfoodz.png" class="card-img-top" alt="unsplashkack">
-                <div class="card-body">
-                    <h5 class="card-title">SendFoodz</h5>
-                    <p class="card-text">
-                        Vue2 web dashboards and mobile application that facilitate food donation by grocery stores to
-                        food banks.
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <span>
-                        <a href="https://csc492-send-foodz.github.io/"><i class="fas fa-globe"></i></a>
-                    </span>
-                    <span style="float: right;">
-                        <a href="https://github.com/CSC492-Send-Foodz"><i class="fab fa-github-alt"></i></a>
-                    </span>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/videos/snake_game.gif" class="card-img-top" alt="snake game">
-                <div class="card-body">
-                    <h5 class="card-title">Snake</h5>
-                    <p class="card-text">
-                        An open-source OOP implementation of Snake using Python/pygame.
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <span>
-                        <a href="https://github.com/shogi9x9/snake_game/tree/master"><i
-                                class="fab fa-github-alt"></i></a>
-                    </span>
-                </div>
-            </div>
+            <h3>Main Dev Stack</h3>
+            <button class="button">HTML5 & CSS3</button>
+            <button class="button">JavaScript</button>
+            <button class="button">Vue & Vuex</button>
+            <button class="button">Nativescript-vue</button>
+            <button class="button">PostgreSQL</button>
+            <button class="button">Git</button>
+            <button class="button">REST & RESTful API</button>
+            <button class="button">Cloud Firestore</button>
+            <button class="button">Node.js/Express.js</button>
+            <button class="button">Linux (Ubuntu)</button>
 
-        </div>
+            <div class="spacer"></div>
 
-        <div class="card-deck" data-aos="fade-zoom-in" data-aos-delay="300" data-aos-offset="0">
-            <div class="card">
-                <img src="./assets/imgs/homepage.png" class="card-img-top" alt="fortnite">
-                <div class="card-body">
-                    <h5 class="card-title">fortnite 2-D MMOG</h5>
-                    <p class="card-text">
-                        A single-page application hosting a 2-D, massive multiplayer online version of Fortnite.
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <span class="text-muted">Class project; code withheld</span>
-                </div>
-            </div>
+            <h3>Secondary Technologies</h3>
+            <button class="button">PHP</button>
+            <button class="button">React</button>
+            <button class="button">jQuery</button>
+            <button class="button">AJAX</button>
+            <button class="button">MySQL</button>
+            <button class="button">R</button>
+            <button class="button">Python</button>
+            <button class="button">LaTeX</button>
 
-            <div class="card">
-                <img src="./assets/imgs/nhs.png" class="card-img-top" alt="snake game">
-                <div class="card-body">
-                    <h5 class="card-title">NHS Property Management Website</h5>
-                    <p class="card-text">
-                        A freelance website built with HTML5, CSS3, and Bootstrap 4.
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <span>
-                        <a href="http://www.nhsproperties.ca"><i class="fas fa-globe"></i></a>
-                        (based on <a href="https://nelnour.github.io/basic-template.github.io/"><i
-                                class="fa fa-globe"></i></a>)
-                    </span>
-                    <span style="float: right;">
-                        <a href="https://github.com/NElnour/basic-template.github.io"><i
-                                class="fab fa-github-alt"></i></a>
-                    </span>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="./assets/imgs/shen.png" class="card-img-top" alt="shen data">
-                <div class="card-body">
-                    <h5 class="card-title">BCB420 ESA R Package</h5>
-                    <p class="card-text">
-                        An R package composed of several exploratory systems analysis functions created by UofT's
-                        BCB420.
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <span>
-                        <a href="https://github.com/hyginn/BCB420.2019.ESA"><i class="fab fa-github-alt"></i></a>
-                    </span>
-                </div>
+            <div class="item extras" id="extras">
+                <h3>Education</h3>
+                <p><strong>HBSc Bioinformatics & Computational Biology</strong> <br />
+                    <em>University of Toronto</em> <br />
+                    2008 – present <br />
+                </p>
+                <p><strong>MSc Cellular and Molecular Medicine</strong> <br />
+                    <em>University of Ottawa</em> <br />
+                    2014 – 2016 <br />
+                <p><strong>BMSc Medical Science</strong> <br />
+                    <em>Western University</em> <br />
+                    2010 – 2013 <br />
             </div>
         </div>
-        <span style="float: right; font-size: larger; padding-top: 2%;"> <a href="./resume.html">SEE MORE <i
-                    class="fas fa-arrow-circle-right"></i></a></span>
-    </main>
-    <footer>
-        <a href="#top"><i class="fas fa-chevron-circle-up"></i></a>
-        <span>
-            <a href="https://www.linkedin.com/in/nada-elnour-2ab922b9/"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://github.com/NElnour"><i class="fab fa-github"></i></a>
-            <a href="https://twitter.com/greyment2"><i class="fab fa-twitter"></i></a>
-        </span>
-    </footer>
-    <script src="./animation.js"></script>
-    <script>
-        AOS.init();
-    </script>
+
+        <div class="item work" id="work">
+            <h3>Experience</h3>
+
+            <div class="job">
+                <div class="job-place">FDM Group</div>
+                <div class="job-title">IT Consultant, Dec 2020 &ndash; Nov 2022</div>
+                <div class="job-location">Montreal, QC</div>
+                <div class="job-desc">
+                    <ul>
+                        <li>Consulted as full-stack <strong>Scala</strong> developer for an investment bank</li>
+                        <li>
+                            Developed a tool using Scala to propagate data access layer (DAL) code and configuration
+                            upgrades to services running on IBM
+                            EGO.</li>
+                        <li>Developed DAL‑side data model of publications to migrate existing notification system to
+                            <strong>Kafka</strong> and <strong>ZooKeeper</strong>.</li>
+                        <li>Conducted investigations of internal and client‑impacting software failures during
+                            support rota.</li>
+                        <li>Mentored and on‑boarded new team members of the support workflow/investigations.</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="job">
+                <div class="job-place">NHS Properties Management Inc.</div>
+                <div class="job-title">Website Designer, Jul &ndash; Sept 2019</div>
+                <div class="job-location">Mississauga, ON</div>
+                <div class="job-link"><span class="fas fa-globe"></span> <a
+                        href="http://nhspropertymanagement.ca/">nhspropertymanagement.ca</a> <br /></div>
+                <div class="job-desc">
+                    <ul>
+                        <li>Negotiated with NHS Property Management to design their company's website using
+                            <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Bootstrap 4</strong>.
+                        </li>
+                        <li>
+                            Successfully built and deployed the company's website.
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-place">Tim Hortons</div>
+                <div class="job-title">Store Front Team Member, 2016 &ndash; 2017</div>
+                <div class="job-location">Mississauga, ON</div>
+                <div class="job-desc">
+                    <ul>
+                        <li>Efficiently and cordially prepared and served orders at counters and windows.</li>
+                        <li>Clearly communicated with customers to take their orders and/or resolve minor issues.
+                        </li>
+                        <li>Regularly completed general store duties such as restocking, cleaning counters and
+                            appliances, and garbage disposal.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-place">University of Ottawa</div>
+                <div class="job-title">BIO1140 TA and Lab Demonstrator, 2016 &ndash; 2016</div>
+                <div class="job-location">Ottawa, ON</div>
+                <div class="job-desc">
+                    <ul>
+                        <li>Coordinated with two TAs to guide, present, and demonstrate lab
+                            techniques to four different undergraduate sections.</li>
+                        <li>Held weekly office hours to advise and explain presiding questions
+                            about course material, study techniques, grading, or assignments.</li>
+                        <li>Evaluated student lab reports, quizzes, and in-lab performance.</li>
+                        <li>Led the proctoring of two lab exams: regular timing, and extended
+                            timing for students with special needs.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="footer">
+        <a href="https://cliply.co/clip/lisa-avatar/">Lisa Avatar GIF from cliply</a>
+    </div>
 </body>
 
 </html
